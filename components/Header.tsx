@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <nav className="w-[325px] lg:w-[650px] mx-auto my-10 flex justify-between items-center">
         <div>
-          <h1 className="lg:text-2xl text-xl font-bold">Aditya Chopde</h1>
+          <h1 className="lg:text-2xl text-xl font-bold"><a href="https://docs.google.com/document/d/1VcwipbbdXy8LB7i_h6wG-WpebQY5SWlA_wHAtzUpxhI/edit?usp=sharing" target="_blank">Aditya Chopde</a></h1>
         </div>
         <div>
           <div className="flex flex-row gap-3 justify-center">
