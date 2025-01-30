@@ -1,11 +1,24 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }} // Start at opacity 0
+      animate={{ opacity: 1 }} // Animate to opacity 1
+      transition={{ duration: 1 }} // Duration of animation
+    >
       <nav className="w-[325px] lg:w-[650px] mx-auto my-10 flex justify-between items-center">
         <div>
-          <h1 className="lg:text-2xl text-xl font-bold"><a href="https://docs.google.com/document/d/1VcwipbbdXy8LB7i_h6wG-WpebQY5SWlA_wHAtzUpxhI/edit?usp=sharing" target="_blank">Aditya Chopde</a></h1>
+          <h1 className="lg:text-2xl text-xl font-bold">
+            <a
+              href="https://docs.google.com/document/d/1VcwipbbdXy8LB7i_h6wG-WpebQY5SWlA_wHAtzUpxhI/edit?usp=sharing"
+              target="_blank"
+            >
+              Aditya Chopde
+            </a>
+          </h1>
         </div>
         <div>
           <div className="flex flex-row gap-3 justify-center">
@@ -46,7 +59,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </motion.div>
   );
 };
 
