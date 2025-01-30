@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="font-bold text-xl text-center">Welcome to my Portfolio</h1>
+      <Header/>
     </div>
   );
 }
